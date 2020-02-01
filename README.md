@@ -1,2 +1,2 @@
-# webdevP1
-My first project for Web Development course at Universidad de los Andes
+# Resume
+My first project for Web Development course at Universidad de los Andes.
