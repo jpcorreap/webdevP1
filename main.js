@@ -1,3 +1,6 @@
 function sayHello() {
-	alert( "Hello!" );
+  alert( "Hello!" );
+
+function test() {
+  return 0;
 }
