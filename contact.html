@@ -47,17 +47,19 @@
 	<!-- Embebed map -->
   <div class="container">
     <div class="row">
-      <div class="col-xl-6 left">
+      <div class="col-xl-5">
         <iframe style="width: 100%;" id="contenedor-mapa" src="map.html"></iframe>
       </div>
-      <div class="col-xl-6">
-        <ul>
-          <li>Github</li>
-          <li>Twitter</li>
-          <li>Facebook</li>
-          <li>Gmail</li>
-          <button type="button" class="btn btn-primary" onclick="changeRandomColors()">Press me!</button>
-        </ul>
+      <div class="col-xl-7">
+      	<div class="row">
+      		<a href="mailto:juanpa1202@gmail.com" class="col-3" target="_blank"><img src="./src/gmail.png" class="contactIcon" ></a>
+	        <a href="https://github.com/jpcorreap" class="col-3" target="_blank"><img src="./src/github.png" class="contactIcon" ></a>
+	        <a href="https://twitter.com/jpcorreap12" class="col-3" target="_blank"><img src="./src/twitter.png" class="contactIcon" ></a>
+	        <a href="https://www.facebook.com/juanpablocorreapuerta12" class="col-3" target="_blank"><img src="./src/facebook.png" class="contactIcon" ></a>
+      	</div>
+        <div class="row">
+        	<button type="button" class="block btn btn-outline-primary col-md-5 center-block" onclick="changeRandomColors()" style="margin-top: 30px;  margin: 0 auto; display: block;">Change random color!</button>
+        </div>
       </div>
     </div>
     
