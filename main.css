@@ -1,11 +1,6 @@
 body {
-	background: rgb(255,255,255);
-	background: radial-gradient(circle, rgba(255,255,255,1) 46%, rgba(179,255,174,1) 100%);
-}
-
-.content {
-	padding: 30px;
-  margin-top: 50px;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 58%, rgba(191,238,255,1) 100%); 
 }
 
 .navbar {
@@ -13,4 +8,80 @@ body {
   top: 0;
   width: 100%;
   z-index: 2;
+  align-self: center;
+}
+
+#name {
+  color: rgb(32, 68, 99);
+  width: 91.5%;
+  text-align: center;
+  margin-right: 10%;
+  font-size: 5vw;
+  font-family: 'Fira Sans', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#content {
+  font-size: 25px;
+  padding: 30px;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.info {
+  height: 70px;
+}
+
+.title {
+  font-size: 1.5em;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  background: rgb(0,161,255);
+  background: radial-gradient(circle, rgba(0,161,255,1) 0%, rgba(98,238,210,1) 100%, rgba(255,255,255,1) 100%);
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date {
+  color: blue;
+  font-style: italic;
+}
+
+.icon {
+align-self: left;
+}
+
+.row .row, .center {
+  width: 100%;
+  align-self: : center;
+  vertical-align: middle;
+  align-content: center;
+  margin-top: 30px;
+}
+
+#contenedor-mapa {
+  margin: 0 auto;
+  height: 400px;
+  background-color: black;
+  
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }

@@ -9,12 +9,14 @@
 	<meta name="description" content="Resume">
 	<!-- This webpage uses Bootstrap: -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:700&display=swap" rel="stylesheet"> 
 	<link rel="icon" type="image/png" href="./favicon.png" sizes="32x32">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 	<!--Navegation bar-->
-	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #009900;">
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #369aa3;">
 	 <a class="navbar-brand" href="./index.html">Home</a>
 	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	 <span class="navbar-toggler-icon"></span>
@@ -22,73 +24,148 @@
 	 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	 <ul class="navbar-nav mr-auto">
 	 <li class="nav-item dropdown">
-	  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	 About<span class="sr-only">(current)</span>
-	  </a>
+	  <span class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
+	 About
+	  </span>
 	  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	 <a class="dropdown-item" href="#">Education</a>
+	 <a class="dropdown-item" href="#education">Education</a>
 	 <div class="dropdown-divider"></div>
-	 <a class="dropdown-item" href="#">Work Experience</a>
+	 <a class="dropdown-item" href="#experience">Work Experience</a>
 	 <div class="dropdown-divider"></div>
-	 <a class="dropdown-item" href="#">Awards - Certifications</a>
+	 <a class="dropdown-item" href="#languages">Languages</a>
 	 <div class="dropdown-divider"></div>
-	 <a class="dropdown-item" href="#">Languages</a>
+	 <a class="dropdown-item" href="#awards">Awards & Certifications</a>
 	  </div>
 	 </li>
-	 <li>
-	 <a class="nav-link pull-right" href="#">Contact</a>
-	 </li>
+	 <a class="nav-link pull-right" href="./contact.html">Contact</a>
 	 </ul>
 	 </div>
 	</nav>
 
 
-
-	<div class="content">
-		<h1>Juan Pablo Correa Puerta</h1>
+	
+	<div id="content">
+		<h1 id="name">Juan Pablo Correa Puerta</h1>
 		<br />
 
+		<!-- About section -->
 		<div class="row">
-		<div class="inline col-md-6">
-			<img src="https://trotons.com/wp-content/uploads/2019/10/Internet-of-things.jpg" alt="Technology">	
-		</div>
-		<div class="inline col-md-6">
-			<h4>About</h4>
-			<p>A fourth year systems and computer engineering student at Universidad de los Andes in Bogota, Colombia. Technology enthusiast, interested in understanding how it can withstand everything: from everyday activities to the most complex projects. Problem-solving knowledge. Programming skills with languages such as Java and Python as well basics in graphic design by using Photoshop and Illustrator.</p>
-		</div>
+			<div class="inline col-xl-6">
+				<img class="img-fluid" src="https://trotons.com/wp-content/uploads/2019/10/Internet-of-things.jpg" alt="Technology" >	
+			</div>
+			<div class="inline col-xl-6">
+				<h4 class="title">About</h4>
+				<p>A fourth year systems and computer engineering student at Universidad de los Andes in Bogota, Colombia. Technology enthusiast, interested in understanding how it can withstand everything: from everyday activities to the most complex projects. Problem-solving knowledge. Programming skills with languages such as Java and Python as well basics in graphic design by using Adobe software such as Photoshop and Illustrator.</p>
+			</div>
 		</div>
 
-		<h4>Education</h4>
-		<ul>
-			<li>Universidad de los Andes, Bogota Colombia. Systems and Computer Engineering</li>
-			<li>Colegio de la Universidad Pontifcia Bolivariana, Medellín Colombia. Highschool</li>
-		</ul>
+		<!-- Education section -->
+		<div class="row">
+			<div class="col-xl-1"></div>
+			
+			<div class="col-xl-10">
+				<div class="info" id="education"></div>
+				<h4 class="title">Education</h4>
+				
+				<div class="row center">
+					<div class="col-xl-2"></div>
+					<div class="col-xl-1 icon">
+						<img src="./src/uniandes.png" alt="Universidad de los Andes" width="50px">
+					</div>
+					<div class="col-sm-9">
+						Universidad de los Andes, Bogota, Colombia. <br/> Systems and Computer Engineering. <span class="date">January 2017 - Present.</span>
+					</div>
+				</div>
+				
+				<div class="row center">
+					<div class="col-xl-2"></div>
+					<div class="col-xl-1 icon">
+						<img src="./src/itesm.png" alt="Tecnológico de Monterrey" width="50px">
+					</div>
+					<div class="col-sm-9">
+						Tecnológico de Monterrey, Pachuca de Soto, Mexico. <br/> Professional Exchange. <span class="date">August - December 2019.</span>
+					</div>
+				</div>
 
-		<h4>Work Experience</h4>
-		<ul>
-			<li>Algorithmic and Object-Oriented Programmint course assistant - Universidad de los Andes, Bogota, Colombia</li>
-			<li>Accountant assistant El Económico and La Terraza, Medellin, Colombia</li>
-		</ul>
+				<div class="row center">
+					<div class="col-xl-2"></div>
+					<div class="col-xl-1 icon">
+						<img src="./src/upb.png" alt="Universidad Pontificia Bolivariana" width="50px">
+					</div>
+					<div class="col-sm-9">
+						Universidad Pontificia Bolivariana, Medellin, Colombia. <br/> Highschool. <span class="date">December 2016.</span>
+					</div>
+				</div>
+			</div>
+		</div>
 
-		<h4>Awards - Certifications</h4>
+		<!-- Work experience section -->
+		<div class="row">
+			<div class="inline col-xl-6">
+				<div class="info" id="experience"></div>
+					<h4 class="title">Work Experience</h4>
+					<ul>
+						<li>Introduction to Programming (Python) course assistant <br> <span class="date">January 2020 - Present.</span></li>
+						<li>Moodle assistant for German A1 & A2 courses <br> <span class="date">Juny 2019 - July 2020.</span> </li>
+						<li>Algorithmic and OOP (Java) course assistant <br> <span class="date">August 2017 - May 2019.</span> </li>
+					</ul>
+				</div>
+				<div class="inline col-xl-6" style="margin-top: 90px">
+					<img class="img-fluid" src="./src/experience.jpg" alt="Technology" >	
+				</div>
+		</div>
+
+
+		<!-- Languages section -->
+		<div class="row">
+			<div class="col-xl-1"></div>
+			
+			<div class="col-xl-10">
+				<div class="info" id="languages"></div>
+				<h4 class="title">Languages</h4>
+				
+				<div class="row center">
+					<div class="col-xl-2"></div>
+					<div class="col-xl-1 icon">
+						<img src="./src/spain.jpg" alt="Spanish symbol" width="50px">
+					</div>
+					<div class="col-sm-9">
+						Spanish - <span class="date">Mother tongue.</span></span>
+					</div>
+				</div>
+				
+				<div class="row center">
+					<div class="col-xl-2"></div>
+					<div class="col-xl-1 icon">
+						<img src="./src/usa.jpg" alt="English symbol" width="50px">
+					</div>
+					<div class="col-sm-9">
+						English - <span class="date">Advanced (10/10 levels at University).</span>
+					</div>
+				</div>
+
+				<div class="row center">
+					<div class="col-xl-2"></div>
+					<div class="col-xl-1 icon">
+						<img src="./src/germany.jpg" alt="Universidad Pontificia Bolivariana" width="50px">
+					</div>
+					<div class="col-sm-9">
+						German - <span class="date">Intermediate (5/6 levels at University).</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="info" id="awards"></div>
+		<h4 class="title">Awards</h4>
 		<ul>
 			<li>Data Science</li>
 			<li>"Líderes del Mañana"</li>
 		</ul>
 
-		<h4>Languages</h4>
-		<ul>
-			<li>Spanish - Mother tongue</li>
-			<li>English - Advanced (10/10 courses at University)</li>
-			<li>German - Intermediate (5/6 courses at University</li>
-		</ul>
-
-		<button type="button" class="btn btn-primary" onclick="sayHello()">Hello!</button>
+		<button type="button" class="btn btn-primary" onclick="changeColors()">Change to orange</button>
 	</div>
-
-
-
-
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,6 +1,6 @@
 function sayHello() {
   alert( "Hello!" );
 
-function test() {
-  return 0;
+function changeColors() {
+  document.getElementByClass("title").style.color = "blue";
 }
