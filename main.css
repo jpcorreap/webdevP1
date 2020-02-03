@@ -4,6 +4,7 @@ body {
 }
 
 .navbar {
+  background-color: #369aa3;
   position: fixed;
   top: 0;
   width: 100%;
