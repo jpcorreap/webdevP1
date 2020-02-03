@@ -5,3 +5,6 @@ This project has been developed with web technologies such as HTML, CSS and Java
 
 You can find this website running on https://jpcorreap.github.io/ (Specially developed for Mozilla browser)<br />
 And also here is a link for website video presentation: https://www.youtube.com/watch?v=ZjRUwvxIOLk
+
+
+[MIT Licence](LICENSE)
